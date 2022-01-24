@@ -1,0 +1,113 @@
+/* account-info */
+.account-info {
+  width: 279px;
+  height: 155px;
+  background-color: tomato;
+  margin: 0 48px;
+  background: #ffffff;
+  box-shadow: 0px 0px 16px rgba(226, 191, 66, 0.19);
+  border-radius: 12px;
+  padding: 14px 17px 6px 17px;
+}
+
+.account {
+  text-align: right;
+}
+
+.account-number {
+  font-size: 14px;
+  font-weight: 500;
+  color: #858585;
+  line-height: 21px;
+}
+
+.account-transfer-btn {
+  margin-left: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+}
+
+.expense-managenment-bar img {
+  width: 24px;
+  height: 24px;
+  margin-top: -10px;
+}
+
+.amount {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.amount > .use-amount {
+  line-height: 36px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.graph {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0 12px;
+}
+
+.remain-graph {
+  position: relative;
+}
+
+.whole-area-bar {
+  width: 202px;
+  height: 6px;
+  background: #c4c4c4;
+  border-radius: 3px;
+}
+
+.color-bar {
+  width: 128px;
+  height: 6px;
+  background: #ffdb4c;
+  border-radius: 3px 0px 0px 3px;
+  position: absolute;
+  top: 0px;
+}
+
+.goal-bar {
+  width: 6px;
+  height: 17px;
+  background: #ff5f00;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  position: absolute;
+  top: -6px;
+  left: 150px;
+}
+
+.remain {
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #858585;
+}
+
+.ad {
+  margin-top: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.ad a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.ad span {
+  text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+/* components */
+@import "components/header.css";
+@import "components/nav-bar.css";
+@import "components/status-bar.css";
+
+@import "./account-info.css";
+@import "./usage-history.css";
+
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;500&display=swap");
+
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1rem;
+  margin: 20px;
+}
+
+nav,
+div {
+  box-sizing: border-box;
+}
+
+main {
+  height: 680px;
+  overflow: hidden;
+  margin-top: 12px;
+  position: relative;
+}
+
+/* home 전체화면 */
+.wrap {
+  width: 375px;
+  height: 812px;
+  margin: 0 auto;
+  background-color: #eeece5;
+  position: relative;
+}

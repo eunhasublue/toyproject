@@ -1,0 +1,29 @@
+/* status_bar */
+.status__bar {
+  width: 375px;
+  height: 44px;
+}
+
+.status__bar > span {
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
+  display: inline-block;
+  margin: 13px 0 11px 21px;
+}
+
+.status__bar > .status__bar-cellular {
+  width: 17px;
+  height: 10.67px;
+  margin-left: 250px;
+}
+
+.status__bar > .status__bar-wifi {
+  width: 15.33px;
+  height: 11px;
+}
+
+.status__bar > .status__bar-battery {
+  width: 24.33px;
+  height: 11.33px;
+}

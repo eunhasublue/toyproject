@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js"></script>
+    <title>KDT Bank</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="status__bar">
+        <span>9:41</span>
+        <img class="status__bar-cellular" src="img/cellular-connection.png" />
+        <img class="status__bar-wifi" src="img/wifi.png" />
+        <img class="status__bar-battery" src="img/battery.png" />
+      </div>
+      <main>
+        <section class="user-page">
+          <header class="title-bar">
+            <div class="profile-img"><img src="img/avatar.png" /></div>
+            <h2>생활비</h2>
+            <div>
+              <a href=""><img class="qr_code" src="img/qr_code.png" /></a>
+              <a href=""><img class="search" src="img/search.png" /></a>
+            </div>
+          </header>
+          <div class="account-info">
+            <div class="container">
+              <div class="account">
+                <span class="account-number">355-673877-78773</span>
+                <a class="account-transfer-btn" href="#">이체</a>
+              </div>
+              <div class="amount">
+                <strong class="use-amount">1,240,000</strong>
+                <span class="unit">원</span>
+              </div>
+              <div class="graph">
+                <div class="remain-graph">
+                  <div class="whole-area-bar"></div>
+                  <div class="color-bar"></div>
+                  <div class="goal-bar"></div>
+                </div>
+                <a class="expense-managenment-bar" href="#">
+                  <img src="img/mdi_bar_chart.png" />
+                </a>
+              </div>
+              <div class="remain">
+                <span class="remain-info"></span>
+                <span class="day">5</span>일 동안<span class="amount"
+                  >210,000</span
+                >원 남음
+              </div>
+            </div>
+          </div>
+          <aside class="ad">
+            <a href="#"
+              >지금 낮은 이자로 생활대출을 신청하세요! <span>GO</span></a
+            >
+          </aside>
+          <div id="usage-history-id" class="usage-history">
+            <div class="updown-scrollbar" onclick="upDownScrollbar()"></div>
+            <div class="coin-box-slidebar">
+              <ul>
+                <li class="slide-item1">
+                  <div></div>
+                  <div></div>
+                  <div class="slide-item1-text-group">
+                    <span>여행가자!</span>
+                    <span>842,200원</span>
+                  </div>
+                </li>
+                <li class="slide-item2">
+                  <div></div>
+                  <div></div>
+                  <div class="slide-item2-text-group">
+                    <span>냉장고사기</span>
+                    <span>142,200원</span>
+                  </div>
+                </li>
+                <button>
+                  <i class="fas fa-plus-circle fa-2x"></i
+                  ><span>저금통 만들기</span>
+                </button>
+              </ul>
+            </div>
+            <div class="daily-usage"></div>
+          </div>
+        </section>
+      </main>
+      <nav>
+        <ul>
+          <li>
+            <img class="nav__img" src="img/home_off.png" />
+            <img class="nav__img-on" src="img/home_on.png" />
+          </li>
+          <li>
+            <img class="nav__img" src="img/transfer_off.png" />
+            <img class="nav__img-on" src="img/transfer_on.png" />
+          </li>
+          <li>
+            <img class="nav__img" src="img/skype_message_off.png" />
+            <img class="nav__img-on" src="img/skpe_message_on.png" />
+          </li>
+          <li>
+            <img class="nav__img" src="img/more_off.png" />
+            <img class="nav__img-on" src="img/more_on.png" />
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous"
+  ></script>
+</html>
